@@ -32,10 +32,6 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
 
-jacoco {
-    toolVersion = "0.7.4+"
-}
-
 test {
 	// systemProperties 'property': 'value'
 	jacoco {
