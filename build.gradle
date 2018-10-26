@@ -32,7 +32,7 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
 
-jacocoTestReport {
+jacoocoTestReport {
    reports {
       xml.enabled = true
       html.enabled = true
